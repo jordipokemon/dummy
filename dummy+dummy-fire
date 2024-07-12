@@ -1,0 +1,43 @@
+
+
+(
+
+while true do
+
+
+local args = {
+    [1] = workspace:WaitForChild("MAP"):WaitForChild("5k_dummies"):WaitForChild("Dummy2"):WaitForChild("Humanoid"),
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("jdskhfsIIIllliiIIIdchgdIiIIIlIlIli"):FireServer(unpack(args))
+
+
+wait (0.1)
+
+end
+
+
+)
+
+
+
+(
+
+while true do 
+
+local args = {
+    [1] = "damage",
+    [2] = {
+        ["EnemyHumanoid"] = workspace:WaitForChild("MAP"):WaitForChild("5k_dummies"):WaitForChild("Dummy2"):WaitForChild("Humanoid")
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SkillsInRS"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+wait (0.1)
+
+end
+
+
+)
